@@ -72,7 +72,7 @@ void T547::eink_on_() {
 }
 
 void T547::display() {
-    ESP_LOGV(TAG, "Display called");
+    ESP_LOGV(TAG, "Display called v1");
     uint32_t start_time = millis();
 
     if (WiFi.status() != WL_CONNECTED) {  // Wait for the Wi-Fi to connect
